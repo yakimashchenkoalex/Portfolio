@@ -1,0 +1,80 @@
+{
+	"id": "1a791a40-80c8-4c6a-998f-f9882e187c5f",
+	"name": "Students",
+	"timestamp": "2022-11-10T16:07:01.460Z",
+	"collection_id": "24359035-df824946-c71c-4c34-844d-bfdba90d2948",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7f21f357-c28b-4758-807b-c8d8bd4e06a2",
+			"name": "Save",
+			"url": "http://151.80.70.42:3000/api/users",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "023c4063-71c7-4435-b845-b9b66b1992df",
+			"name": "Delete",
+			"url": "http://151.80.70.42:3000/api/users",
+			"time": 59,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 167,
+	"collection": {
+		"requests": [
+			{
+				"id": "7f21f357-c28b-4758-807b-c8d8bd4e06a2",
+				"method": "POST"
+			},
+			{
+				"id": "023c4063-71c7-4435-b845-b9b66b1992df",
+				"method": "DELETE"
+			}
+		]
+	}
+}
